@@ -109,7 +109,7 @@ view model =
             [ text ("Hello, " ++ model.name ++ "!")
             , button
                 [ onClick Click ]
-                [ text ("I've been clicked " ++ model.clicks ++ " times") ]
+                [ text ("I've been clicked " ++ (toString model.clicks) ++ " times") ]
             ]
         ]
 
@@ -200,7 +200,7 @@ view model =
                 []
             , button
                 [ onClick Click ]
-                [ text ("I've been clicked " ++ model.clicks ++ " times") ]
+                [ text ("I've been clicked " ++ (toString model.clicks) ++ " times") ]
             ]
         ]
 
@@ -248,7 +248,7 @@ view model =
                 []
             , button
                 [ onClick Click ]
-                [ text ("I've been clicked " ++ model.clicks ++ " times") ]
+                [ text ("I've been clicked " ++ (toString model.clicks) ++ " times") ]
             ]
         ]
 
