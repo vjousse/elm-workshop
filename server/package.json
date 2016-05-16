@@ -1,0 +1,17 @@
+{
+  "name": "static-server",
+  "version": "0.0.1",
+  "description": "A static server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": true,
+  "author": "Marcus Griep",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-history-api-fallback": "^2.0.0",
+    "serve-static": "^1.10.2"
+  }
+}
